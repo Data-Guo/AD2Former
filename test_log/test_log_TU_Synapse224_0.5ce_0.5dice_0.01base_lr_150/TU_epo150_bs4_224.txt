@@ -1,0 +1,24 @@
+[13:15:05.529] Namespace(Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, base_lr=0.01, batch_size=4, ce=0.5, dataset='Synapse', deterministic=1, dice=0.5, exp='TU_Synapse224_0.5ce_0.5dice_0.01base_lr_150', img_size=224, input_channels=3, is_pretrain=True, is_savenii=False, list_dir='./lists/lists_Synapse', max_epochs=150, max_iterations=30000, num_classes=9, seed=1234, test_save_dir='../predictions', volume_path='./data/Synapse/test', z_spacing=1)
+[13:15:05.529] TU_epo150_bs4_224
+[13:15:05.530] 12 test iterations per epoch
+[13:16:56.476] idx 0 case case0008 mean_dice 0.696437 mean_hd95 8.442776
+[13:18:00.862] idx 1 case case0022 mean_dice 0.905234 mean_hd95 3.209632
+[13:19:09.153] idx 2 case case0038 mean_dice 0.824630 mean_hd95 21.181720
+[13:21:25.419] idx 3 case case0036 mean_dice 0.861794 mean_hd95 7.768347
+[13:23:07.807] idx 4 case case0032 mean_dice 0.902375 mean_hd95 4.281812
+[13:24:43.966] idx 5 case case0002 mean_dice 0.894120 mean_hd95 4.566126
+[13:25:49.953] idx 6 case case0029 mean_dice 0.761665 mean_hd95 45.404520
+[13:28:15.826] idx 7 case case0003 mean_dice 0.733379 mean_hd95 54.148278
+[13:30:02.622] idx 8 case case0001 mean_dice 0.811544 mean_hd95 16.446550
+[13:31:45.889] idx 9 case case0004 mean_dice 0.775032 mean_hd95 10.056690
+[13:32:49.887] idx 10 case case0025 mean_dice 0.896360 mean_hd95 2.319087
+[13:33:49.793] idx 11 case case0035 mean_dice 0.886452 mean_hd95 2.827851
+[13:33:49.916] Mean class 1 mean_dice 0.892582 mean_hd95 5.171108
+[13:33:49.917] Mean class 2 mean_dice 0.695256 mean_hd95 9.878040
+[13:33:49.917] Mean class 3 mean_dice 0.859082 mean_hd95 35.459294
+[13:33:49.917] Mean class 4 mean_dice 0.828113 mean_hd95 13.108216
+[13:33:49.917] Mean class 5 mean_dice 0.949482 mean_hd95 10.827437
+[13:33:49.917] Mean class 6 mean_dice 0.670948 mean_hd95 11.307323
+[13:33:49.917] Mean class 7 mean_dice 0.921487 mean_hd95 22.313058
+[13:33:49.917] Mean class 8 mean_dice 0.815731 mean_hd95 12.371115
+[13:33:49.917] Testing performance in best val model: mean_dice : 0.829085 mean_hd95 : 15.054449
